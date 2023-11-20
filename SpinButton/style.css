@@ -1,0 +1,29 @@
+  body.dark {
+    background-color: #030303;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .spin-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #000000;
+    border: 1px solid #24ce9b;
+    color: #24ce9b;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, box-shadow 0.3s ease; /* Box shadow için transition eklendi */
+    box-shadow: 0px 4px 8px rgba(88, 236, 236, 0.61); /* Hafif bir gölge eklendi */
+  }
+  
+  .spin-button:hover {
+    transform: rotate(360deg);
+  }
+  
